@@ -39,8 +39,8 @@
 
   @media (max-width: 768px) {
     #shareIcon::after{
-        right: 50px;
-        top: 6.5%;
+        right: 51px;
+        top: 7%;
     }
 }
 
