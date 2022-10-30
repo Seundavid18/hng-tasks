@@ -37,6 +37,12 @@
     align-items: center;
   }
 
+  @media (max-width: 768px) {
+    #shareIcon::after{
+        right: 50px;
+    }
+}
+
 #shareIcon:hover::after{
     opacity: 1;
     transform: translateY(5px);
