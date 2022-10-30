@@ -1,0 +1,334 @@
+#share{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#shareIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 3px;
+    border: 1px dashed lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#shareIcon::after{
+    content: attr(title);
+    position: absolute;
+    background: #222;
+    color: #fff;
+    right: 140px;
+    top: 5.5%;
+    text-align: center;
+    font-size: 12px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 300ms;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#shareIcon:hover::after{
+    opacity: 1;
+    transform: translateY(5px);
+}
+
+
+#profile_img{
+    width: 88px;
+    height: 88px;
+    background-image: url(../../images/WhatsApp\ Image\ 2022-10-11\ at\ 11.57.16\ AM.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+#profile_img:hover{
+    background-image: url(../../images/hoverImg.PNG);  
+}
+
+#twitter{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#slack{
+    display: none;
+}
+
+#twitter-link{
+    width: 100%;
+    height: 76px;
+    border-radius: 5px;
+    background-color: rgb(234, 236, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #101828;
+    margin-top: 20px;
+    position: relative;
+}
+
+#twitter-link:hover{
+    background-color: #D0D5DD;
+}
+
+#twitter-link::before{
+    content: attr(data-title);
+    position: absolute;
+    visibility: hidden;
+    background: #222;
+    color: #fff;
+    top: 80%;
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 300ms;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(15px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#twitter-link:hover::before{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(5px);
+}
+
+#btn_zuri{
+    width: 100%;
+    height: 76px;
+    border-radius: 5px;
+    background-color: #EAECF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #101828;
+    margin-top: 20px;
+    position: relative;
+}
+
+#btn_zuri:hover{
+    background-color: #D0D5DD;
+}
+
+#books{
+    width: 100%;
+    height: 76px;
+    border-radius: 5px;
+    background-color: #EAECF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #101828;
+    margin-top: 20px;
+    position: relative;
+}
+
+#books:hover{
+    background-color: #D0D5DD;
+}
+
+#books::before{
+    content: attr(data-title);
+    position: absolute;
+    visibility: hidden;
+    background: #222;
+    color: #fff;
+    top: 80%;
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 300ms;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(15px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#books:hover::before{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(5px);
+}
+
+#book__python{
+    width: 100%;
+    height: 76px;
+    border-radius: 5px;
+    background-color: #EAECF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #101828;
+    margin-top: 20px;
+    position: relative;
+}
+
+#book__python:hover{
+    background-color: #D0D5DD;
+}
+
+#book__python::after{
+    content: attr(data-title);
+    position: absolute;
+    visibility: hidden;
+    background: #222;
+    color: #fff;
+    top: 80%;
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 300ms;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(15px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#book__python:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(5px);
+}
+
+#pitch{
+    width: 100%;
+    height: 76px;
+    border-radius: 5px;
+    background-color: #EAECF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #101828;
+    margin-top: 20px;
+    position: relative;
+}
+
+#pitch:hover{
+    background-color: #D0D5DD;
+}
+
+#pitch::after{
+    content: attr(data-title);
+    position: absolute;
+    visibility: hidden;
+    background: #222;
+    color: #fff;
+    top: 80%;
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 300ms;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(15px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#pitch:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(5px);
+}
+
+
+#book__design{
+    width: 100%;
+    height: 76px;
+    border-radius: 5px;
+    background-color: #EAECF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #101828;
+    margin-top: 20px;
+    position: relative;
+}
+
+#book__design:hover{
+    background-color: #D0D5DD;
+}
+
+#book__design::after{
+    content: attr(data-title);
+    position: absolute;
+    visibility: hidden;
+    background: #222;
+    color: #fff;
+    top: 80%;
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 300ms;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(15px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#book__design:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(5px);
+}
+
+#logoImg{
+    margin: 40px 0px;
+}
+
+#slackImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+#gitImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
