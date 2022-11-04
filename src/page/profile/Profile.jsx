@@ -3,6 +3,8 @@ import './profile.css'
 import slackImg from '../../images/SDDw7CnuoUGax6x9mTo7dd.jpg'
 import gitImg from '../../images/Icon.png'
 import { RiShareForwardLine } from 'react-icons/ri'
+import { Link } from 'react-router-dom'
+
 
 
 const Profile = () => {
@@ -34,6 +36,8 @@ const Profile = () => {
             <a href='https://background.zuri.team' id='pitch' data-title='Carry out a background check on desirable coders to access their hands-on experience and skills' className='link'>Background Check for Coders</a>
 
             <a href='https://books.zuri.team/design-rules' id='book__design' data-title='Get the Zuri free design book' className='link'>Design Books</a>
+            
+            <Link to="/contact" id='contact' data-title='Contact page' className='link'>Contact Me</Link>
         
             <div id='logoImg'>
                 <span>
