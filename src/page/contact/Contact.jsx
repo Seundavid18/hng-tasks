@@ -50,7 +50,7 @@ const Contact = () => {
             setErrors(formErrors)
         }else{
             alert('Thank you, your message has been sent. You will be contacted shortly!')
-            window.location.reload()
+            window.location.replace("/")
         }
     } 
 
