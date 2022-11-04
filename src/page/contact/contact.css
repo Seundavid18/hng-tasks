@@ -55,7 +55,7 @@
 }
 
 [type="checkbox"]{
-    opacity: 0;
+    visibility: hidden;
 }
 
 [type="checkbox"] + label{
